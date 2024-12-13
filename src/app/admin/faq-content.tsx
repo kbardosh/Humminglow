@@ -37,6 +37,9 @@ export const FAQContent = () => {
         onSuccess: () => {
           utils.faq.invalidate();
         },
+        onError: (e) => {
+          alert(e.message);
+        },
       },
     );
   };

@@ -21,6 +21,9 @@ export const GalleryContent = () => {
         onSuccess: () => {
           utils.gallery.invalidate();
         },
+        onError: (e) => {
+          alert(e.message);
+        },
       },
     );
   };
