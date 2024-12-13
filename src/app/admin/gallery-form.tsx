@@ -74,7 +74,11 @@ export const GalleryForm = () => {
         className="w-full rounded border p-2 text-black-400"
       />
 
-      <Button type="submit" disabled isLoading={mutation.isPending}>
+      <Button
+        type="submit"
+        disabled={!Boolean(file)}
+        isLoading={mutation.isPending}
+      >
         Submit
       </Button>
     </form>
