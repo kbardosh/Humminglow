@@ -24,7 +24,7 @@ export const GalleryContent = () => {
 
   return (
     <div className="mx-auto w-full max-w-7xl p-6">
-      <div className="flex flex-wrap justify-center gap-6">
+      <div className="flex flex-wrap justify-center gap-6 lg:justify-start">
         {query.data.map((image) => (
           <button
             key={image.id}
