@@ -37,7 +37,13 @@ export const GalleryContent = () => {
 
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
         {query.data.map((image) => (
-          <button key={image.id} onClick={() => setSelectedImage(image)}>
+          <div
+            key={image.id}
+            role="button"
+            tabIndex={0}
+            onClick={() => setSelectedImage(image)}
+            className="cursor-pointer"
+          >
             <div className="relative h-[31.25rem] w-full overflow-hidden transition-all hover:scale-105">
               <img
                 src={image.url}
@@ -53,12 +59,15 @@ export const GalleryContent = () => {
                 variant="destructive"
                 size="icon"
                 className="absolute right-2 top-2"
-                onClick={() => handleDeleteImage(image.id)}
+                onClick={(e) => {
+                  e.stopPropagation(); // Prevent triggering the outer click
+                  handleDeleteImage(image.id);
+                }}
               >
                 <Trash2 className="h-4 w-4" />
               </Button>
             </div>
-          </button>
+          </div>
         ))}
       </div>
       <GalleryDialog
