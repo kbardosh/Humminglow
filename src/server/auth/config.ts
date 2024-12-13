@@ -56,7 +56,10 @@ export const authConfig = {
     async signIn({ user }) {
       if (!user.email) return false;
 
-      const allowedEmails = ["humminglowdev@gmail.com"];
+      const allowedEmails = [
+        process.env.CLIENT_MAIL,
+        "humminglowdev@gmail.com",
+      ];
 
       if (allowedEmails.includes(user.email)) {
         return true;
