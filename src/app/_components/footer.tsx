@@ -29,7 +29,7 @@ export const ContactInfo = () => {
 
 export const Footer = () => {
   return (
-    <footer className="space-y-6 bg-black-400 p-24 text-white-400">
+    <footer className="space-y-6 bg-black-400 text-white-400 sm:p-12 md:p-16 lg:p-20">
       <div className="space-y-6 text-center md:flex md:items-center md:justify-between md:gap-6 md:text-left">
         <div>
           <h2 className="text-lg font-bold uppercase sm:text-xl md:text-2xl lg:text-4xl">
