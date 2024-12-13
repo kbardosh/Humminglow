@@ -10,7 +10,7 @@ import { Footer } from "./_components/footer";
 export const metadata: Metadata = {
   title: "Humminglow Aesthetics Lounge",
   description:
-    "Welcome to Humminglow Aesthetics Lounge, where your inner glow, beauty, and wellness converge, and treatments that will be personalized specially for you.",
+    "5 star rated injector, providing services such as botulinum toxin injections, dermal fillers, Sculptra biostimulator injections, laser treatments, microneedling, PRP, and skincare.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
   manifest: "./site.webmanifest",
 };
