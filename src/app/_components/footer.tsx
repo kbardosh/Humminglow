@@ -53,7 +53,7 @@ export const Footer = () => {
           </span>
 
           <img
-            src={Logo.src}
+            src="https://utfs.io/f/0h3ZZPNH4XVbVhfPYgXOCeW8ZK1Asojd5mH2BcFhwuUlTy0p"
             alt="Logo"
             width={75}
             height={91.39}

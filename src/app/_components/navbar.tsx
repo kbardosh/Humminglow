@@ -1,10 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
 import { Menu, X } from "lucide-react";
 
-import Logo from "../images/logo.png";
 import { Link } from "./ui/link";
 import { BookLink } from "./book-link";
 import { Button } from "./ui/button";
@@ -20,7 +18,12 @@ export const Navbar = () => {
     <nav className="bg-black-400 p-2">
       <div className="grid grid-cols-2 items-center px-4 lg:grid-cols-3">
         <Link href="/" className="flex items-center">
-          <img src={Logo.src} alt="Logo" width={75} height={91.39} />
+          <img
+            src="https://utfs.io/f/0h3ZZPNH4XVbVhfPYgXOCeW8ZK1Asojd5mH2BcFhwuUlTy0p"
+            alt="Logo"
+            width={75}
+            height={91.39}
+          />
         </Link>
 
         <div className="hidden items-center justify-center gap-8 lg:flex">

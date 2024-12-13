@@ -9,16 +9,17 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 
-import ServiceImage from "../images/service.png";
-
 import { TreatmentCard, type TreatmentCardProps } from "./treatment-card";
+
+const serviceSRC =
+  "https://utfs.io/f/0h3ZZPNH4XVbf28M4TzBnTlVQsUuFew5tOh2Kp8XRdLiyk6b";
 
 const treatments: TreatmentCardProps["treatment"][] = [
   {
     title: "Consultation (In Person)",
     category: "Consultations",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
 
     descriptions: [
       {
@@ -35,7 +36,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Good Faith Exam",
     category: "Consultations",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
 
     descriptions: [
       {
@@ -52,7 +53,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Botulinum Toxin Injections: New Patient",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
     descriptions: [
       {
         heading: "What is Botox®, Dysport®, Xeomin®, aka, Neuromodulators?",
@@ -76,7 +77,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Botulinum Toxin: Return Patient",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
     descriptions: [
       {
         heading: "What is Botox®, Dysport®, Xeomin®, aka, Neuromodulators?",
@@ -100,7 +101,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Facial Filler",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
     descriptions: [
       {
         heading: "Plan Ahead",
@@ -160,7 +161,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Lip Filler",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
     descriptions: [
       {
         heading: "What are Lip Fillers?",
@@ -176,7 +177,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Lip Filler Touch Up",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
     descriptions: [
       {
         heading: "Lip Filler Touch Up",
@@ -188,7 +189,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Microneedling",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
 
     descriptions: [
       {
@@ -205,7 +206,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
     title: "Sculptra Injections",
     category: "Injectables",
     price: 0,
-    imageUrl: ServiceImage.src,
+    imageUrl: serviceSRC,
     descriptions: [
       {
         heading: "What is Sculptra®?",

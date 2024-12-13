@@ -1,12 +1,11 @@
 import { BookLink } from "./book-link";
 import { Section, SectionHeading } from "./ui/section";
-import PortraitImage from "../images/portrait.jpeg";
 
 const Portrait = () => {
   return (
     <img
       className="rounded-xl object-cover"
-      src={PortraitImage.src}
+      src="https://utfs.io/f/0h3ZZPNH4XVbhmvKjakRRfL04WrGi9xJatdunmjz1pUMoYNv"
       width={580}
       height={685}
       alt="Portrait of owner"
