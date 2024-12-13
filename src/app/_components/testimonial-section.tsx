@@ -11,7 +11,6 @@ import {
 } from "./ui/carousel";
 import { Star, Quote } from "lucide-react";
 import { Section, SectionHeading } from "./ui/section";
-import BackgroundImage from "../images/hummingbirds.jpeg";
 
 interface Testimonial {
   author: string;
@@ -74,7 +73,7 @@ export const TestimonialsSection = () => {
     <Section
       className="w-full space-y-20"
       style={{
-        backgroundImage: `url(${BackgroundImage.src})`,
+        backgroundImage: `url(https://utfs.io/f/0h3ZZPNH4XVb3J92HWG1bOE2oWJBx4tLl0Iy6kcguHpzseZV)`,
       }}
     >
       <SectionHeading className="text-gold-400">

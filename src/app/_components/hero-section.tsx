@@ -1,12 +1,11 @@
 import { Hero } from "./hero";
-import Image from "../images/hummingbirds.jpeg";
 
 export const HeroSection = () => {
   return (
     <div
       className="flex items-center bg-red-50"
       style={{
-        backgroundImage: `url(${Image.src})`,
+        backgroundImage: `url(https://utfs.io/f/0h3ZZPNH4XVb3J92HWG1bOE2oWJBx4tLl0Iy6kcguHpzseZV)`,
         height: "calc(100vh - 6.5rem)",
       }}
     >
