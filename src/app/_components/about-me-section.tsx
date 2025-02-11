@@ -4,10 +4,8 @@ import { Section, SectionHeading } from "./ui/section";
 const Portrait = () => {
   return (
     <img
-      className="rounded-xl object-cover"
-      src="https://utfs.io/f/0h3ZZPNH4XVbhmvKjakRRfL04WrGi9xJatdunmjz1pUMoYNv"
-      width={580}
-      height={685}
+      className="rounded-xl object-cover w-full h-[20rem] md:w-[50rem] md:h-[40rem] object-top"
+      src="https://g19i0ofs1h.ufs.sh/f/6qEAXnDYaqZeaV8z6HEg4QmlHMy1789ZfiedpR6E0NIhjAkF"
       alt="Portrait of owner"
     />
   );
@@ -23,21 +21,7 @@ export const AboutMeSection = () => {
         <SectionHeading>Welcome to Humminglow Aesthetics Lounge</SectionHeading>
 
         <p className="text-white-400">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor,
-          suscipit similique ullam dolore quasi maiores, reprehenderit saepe
-          blanditiis, velit perferendis soluta quia. Consequatur adipisci quos
-          placeat aperiam voluptatum modi animi. Lorem ipsum dolor sit, amet
-          consectetur adipisicing elit. Dolor, suscipit similique ullam dolore
-          quasi maiores, reprehenderit saepe blanditiis, velit perferendis
-          soluta quia. Consequatur adipisci quos placeat aperiam voluptatum modi
-          animi. Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-          Dolor, suscipit similique ullam dolore quasi maiores, reprehenderit
-          saepe blanditiis, velit perferendis soluta quia. Consequatur adipisci
-          quos placeat aperiam voluptatum modi animi. Lorem ipsum dolor sit,
-          amet consectetur adipisicing elit. Dolor, suscipit similique ullam
-          dolore quasi maiores, reprehenderit saepe blanditiis, velit
-          perferendis soluta quia. Consequatur adipisci quos placeat aperiam
-          voluptatum modi animi.
+        5 star rated injector, botulinum toxins, lip and facial filler, Sculptra biostimulator injections, laser treatments.
         </p>
 
         <BookLink />
