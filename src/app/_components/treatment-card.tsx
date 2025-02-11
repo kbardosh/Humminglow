@@ -37,7 +37,7 @@ export function TreatmentCard({ treatment }: TreatmentCardProps) {
           </div>
         </div>
 
-        <div className="relative -top-2 space-y-2 rounded-b-xl bg-white-400 px-6 pb-4 pt-6">
+        <div className="relative -top-2 space-y-2 rounded-b-xl bg-white-400 px-6 pb-4 pt-6 z-20">
           <Button className="w-full" onClick={() => setIsDialogOpen(true)}>
             View Details
           </Button>
