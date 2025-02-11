@@ -21,7 +21,8 @@ export default withUt({
           "400": "#EEEEEE",
         },
         gold: {
-          "400": "#C9BA6F",
+          // "400": "#C9BA6F",
+          "400": "#c6b666",
         },
         purple: {
           "400": "#201445",
