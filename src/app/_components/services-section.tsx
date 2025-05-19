@@ -110,6 +110,40 @@ const treatments: TreatmentCardProps["treatment"][] = [
       },
     ],
   },
+  {
+    title: "Hair Growth Treatments: PRP & Exosomes",
+    category: "Aesthetics",
+    price: 0,
+    imageUrl:
+      "https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbCY3LVUJhAFEG3JIzvSpsxu6Q4ocD7RfybP1h",
+    descriptions: [
+      {
+        heading: "Hair Growth Treatments: PRP & Exosomes",
+        text: "Help stimulate your hair follicles by injecting PRP into your scalp, which increases blood supply and extends the growth phase of hair. This can lead to thicker, healthier hair, and in some cases, new growth in thinning areas.",
+      },
+      {
+        heading: "",
+        text: "By adding exosomes to your treatment, we can activate dormant hair follicles, reduce inflammation, and promote more robust hair regeneration—often with more advanced results than PRP alone.",
+      },
+    ],
+  },
+  {
+    title: "Under Eye Treatments",
+    category: "Aesthetics",
+    price: 0,
+    imageUrl:
+      "https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbmufla03lHso4RxIwVOnN6WzcuPUjK9DBeGJT",
+    descriptions: [
+      {
+        heading: "Under Eye Treatments",
+        text: "The delicate skin under the eyes is often one of the first places to show signs of aging, such as:\n• Dark circles\n• Fine lines and wrinkles\n• Crepey texture\n• Mild volume loss or hollowness\n\nPRP works by stimulating collagen production, improving circulation, and encouraging tissue repair, all of which help refresh and rejuvenate the under-eye area naturally.",
+      },
+      {
+        heading: "",
+        text: "Add a laser under eye treatment along with medical grade skincare that is specifically designed for under eyes, for amazing and long lasting results!",
+      },
+    ],
+  },
 ];
 
 export const ServicesSection = () => {
