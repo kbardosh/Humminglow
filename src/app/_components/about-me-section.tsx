@@ -5,7 +5,7 @@ const Portrait = () => {
   return (
     <img
       className="h-[20rem] w-full rounded-xl object-cover object-top md:h-[40rem] md:w-[50rem]"
-      src="https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbhmvKjakRRfL04WrGi9xJatdunmjz1pUMoYNv"
+      src="https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbT3lWCLtLhv7gdxUAXOzplHQZ45SwCnMKjyFs"
       alt="Portrait of owner"
     />
   );
@@ -15,7 +15,7 @@ const JourneyImage = () => {
   return (
     <img
       className="h-[20rem] w-full rounded-xl object-cover object-center md:h-[40rem] md:w-[50rem]"
-      src="https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbxCiKlzaeDZ8OicE91MjFfRoJyp0BAudW35Xn"
+      src="https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVby2Hq0OuvzRyQnEGUmqCcNiIx3rZSAB7HMhPX"
       alt="Karina's nursing journey"
     />
   );
