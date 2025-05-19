@@ -46,9 +46,9 @@ export const AboutMeSection = () => {
             Welcome to Humminglow
           </h3>
           <p className="text-white-400">
-            Welcome! My name is Karina, and I am the owner and injector at
-            Humminglow Aesthetics Lounge. I have been a Registered Nurse since
-            2017, and have been enjoying every minute of it!
+            My name is Karina, and I am the owner and injector at Humminglow
+            Aesthetics Lounge. I have been a Registered Nurse since 2017, and
+            have been enjoying every minute of it!
           </p>
           <BookLink />
         </div>
