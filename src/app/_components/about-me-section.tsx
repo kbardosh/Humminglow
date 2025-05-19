@@ -50,7 +50,6 @@ export const AboutMeSection = () => {
             Aesthetics Lounge. I have been a Registered Nurse since 2017, and
             have been enjoying every minute of it!
           </p>
-          <BookLink />
         </div>
 
         <div>
@@ -71,7 +70,6 @@ export const AboutMeSection = () => {
             knowledge and passion for plastic surgery and other aesthetic
             procedures grew.
           </p>
-          <BookLink />
         </div>
 
         <div>
