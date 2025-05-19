@@ -112,7 +112,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
   },
   {
     title: "Hair Growth Treatments: PRP & Exosomes",
-    category: "Aesthetics",
+    category: "Injectables",
     price: 0,
     imageUrl:
       "https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbCY3LVUJhAFEG3JIzvSpsxu6Q4ocD7RfybP1h",
@@ -129,7 +129,7 @@ const treatments: TreatmentCardProps["treatment"][] = [
   },
   {
     title: "Under Eye Treatments",
-    category: "Aesthetics",
+    category: "Injectables",
     price: 0,
     imageUrl:
       "https://9wvzne6phq.ufs.sh/f/0h3ZZPNH4XVbmufla03lHso4RxIwVOnN6WzcuPUjK9DBeGJT",
